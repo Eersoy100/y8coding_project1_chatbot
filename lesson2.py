@@ -1,7 +1,7 @@
 print("""1. TYPHOON
       2. SUNNY
       3. SNOWING""")
-weather = int(input("what is the weather like today?"))
+weather = input("what is the weather like today?")
 
 if weather == "1":
     location = "inside"
@@ -18,5 +18,8 @@ elif weather == "3":
 
     enjoyment2 = input(f"why {enjoyment} you like the weather?")
     
+    elif food[0] == "E":
+    print("YUM!") 
+   
     print(f"today you are {location} eating {food} and it is {time}. You {enjoyment} like the weather beacause {enjoyment2} ")
 

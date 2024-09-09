@@ -1,0 +1,6 @@
+name = input("hello, whats your name?")
+print("hi", name)   
+age = input("what is your age????????")
+print("wow",age,"is so old!")
+lesson = input("what is your favorite lesson?")
+print(" I also like",lesson, "!")
