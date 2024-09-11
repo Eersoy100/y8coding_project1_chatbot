@@ -9,5 +9,16 @@ print(lesson, "has", lessonpt2, "letters!")
 teacher = input("who is your teacher?")
 print(teacher, "makes me think too hard!")
 country = input("what is your country?")
-countrypt2 = 
-print(countrypt2)
+countrypt2 = (country[0])
+print("your country begins with a", countrypt2)
+food = input("whats your favorite food?")
+print("you like to eat", food,food,food, "in", country)
+food2 = len(food)
+contry3 = len(country)
+if food2 < country:
+    print("the name of your country is longer than the name of your food")
+else:
+    print("the name of your country is shorter than the name of your food")
+print("are you ready?")
+if input("yes" or "Yes"):
+    print("watch this:")
